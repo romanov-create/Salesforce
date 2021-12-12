@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Job Role</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+                <label>Project Manager</label>
+            </value>
+            <value>
+                <fullName>Junior Developer</fullName>
+                <default>false</default>
+                <label>Junior Developer</label>
+            </value>
+            <value>
+                <fullName>Middle Developer</fullName>
+                <default>false</default>
+                <label>Middle Developer</label>
+            </value>
+            <value>
+                <fullName>Senior Developer</fullName>
+                <default>false</default>
+                <label>Senior Developer</label>
+            </value>
+            <value>
+                <fullName>Solution Architect</fullName>
+                <default>false</default>
+                <label>Solution Architect</label>
+            </value>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>false</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>QA</fullName>
+                <default>false</default>
+                <label>QA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
